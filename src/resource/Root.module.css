@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fugaz+One&family=Inconsolata&family=Playfair+Display&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+@media only screen and (min-width: 600px) {
+  .menuButton {
+    visibility: hidden;
+  }
+
+}
+@media only screen and (max-width: 600px) {
+.standby {
+  visibility: hidden;
+}
+.menuicon {
+  margin: 1rem;
+}
+nav {
+  visibility: hidden;
+  
+
+ 
+}
+.navigation {
+  background-color: rgb(197, 197, 197);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  position: absolute;
+  border-radius: 0.5rem;
+}
+
+}
+nav {
+  height: 3rem;
+  border-bottom: solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+}
+a {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin: 0 1rem;
+  color: #000000d5;
+}
