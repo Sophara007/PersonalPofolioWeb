@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fugaz+One&family=Inconsolata&family=Playfair+Display&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 
+
 @media only screen and (min-width: 600px) {
   .menuButton {
     visibility: hidden;
@@ -14,6 +15,12 @@
 .menuicon {
   margin: 1rem;
 }
+.navigation a {
+  
+  font-size: medium;
+}
+
+
 nav {
   visibility: hidden;
   
