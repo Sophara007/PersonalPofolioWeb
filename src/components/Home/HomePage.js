@@ -37,6 +37,9 @@ export function Home() {
               <Link to="https://t.me/SopharaKiet" target="_blank" rel="noopener noreferrer">
               <i class="fa-brands fa-telegram"></i>
               </Link>
+              <Link to="https://github.com/Sophara007" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-github"></i>
+              </Link>
             </div>
           </div>
           <img src={transparentImage} alt="Profile img" />
