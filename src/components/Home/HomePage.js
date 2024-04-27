@@ -4,7 +4,7 @@ import styles from "../../resource/Home.module.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import laptop from "../../resource/img/laptop.jpg"
 import earth from "../../resource/img/viewearth.jpg";
-import galaxy from "../../resource/img/galaxy.jpg";
+
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -51,9 +51,11 @@ export function Home() {
             <button className={styles.cardbutton}>Learn more</button>
           </div>
           <div className={styles.cards}>
-            <img src={galaxy} alt="galaxy"/>
-            <h3>card2</h3>
+          <img src={require("../../resource/img/facebook-ui.png")} alt="facebook" />
+            <h3>Facebook UI Arrange pratice</h3>
+            <Link to="https://facebook-ui-pratice.netlify.app/ " target="_blank" rel="noopener noreferrer">
             <button className={styles.cardbutton}>Learn more</button>
+            </Link>
           </div>
           <div className={styles.cards}>
           <img src={laptop} alt="laptop"/>
