@@ -49,7 +49,7 @@ export function Home() {
 
           <div className={styles.cards}>
           <img src={earth} alt="earth"/>
-            <h3>card1</h3>
+            <h3>Food Chooser</h3>
 
             <button className={styles.cardbutton}>Learn more</button>
           </div>
