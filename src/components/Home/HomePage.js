@@ -3,7 +3,7 @@ import transparentImage from "../../resource/img/transparent.jpg.png";
 import styles from "../../resource/Home.module.css";
 import "@fortawesome/fontawesome-free/css/all.css";
 import laptop from "../../resource/img/laptop.jpg"
-import earth from "../../resource/img/viewearth.jpg";
+import earth from "../../resource/img/food.png";
 
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
