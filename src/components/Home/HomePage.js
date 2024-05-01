@@ -51,11 +51,13 @@ export function Home() {
           <img src={earth} alt="earth"/>
             <h3>Food Chooser</h3>
 
+            <Link to="https://sage-bienenstitch-aa0475.netlify.app/ " target="_blank" rel="noopener noreferrer">
             <button className={styles.cardbutton}>Learn more</button>
+            </Link>
           </div>
           <div className={styles.cards}>
           <img src={require("../../resource/img/facebook-ui.png")} alt="facebook" />
-            <h3>Facebook UI Arrange pratice</h3>
+            <h3>Facebook UI Arrange</h3>
             <Link to="https://facebook-ui-pratice.netlify.app/ " target="_blank" rel="noopener noreferrer">
             <button className={styles.cardbutton}>Learn more</button>
             </Link>
